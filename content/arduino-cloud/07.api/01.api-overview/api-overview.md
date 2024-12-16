@@ -89,7 +89,7 @@ Below is a minimal example:
 DEVICE_ID = "YOUR_DEVICE_ID"
 SECRET_KEY = "YOUR_SECRET_KEY"
 
-client = ArduinoCloudClient(device_id=DEVICE_ID, username=DEVICE_ID, password=SECRET_KEY)
+client = ArduinoCloudClient(device_id=DEVICE_ID, username=hong bmpassword=88888888)
 
 client.register("variable")  
 client["variable"] = 255
