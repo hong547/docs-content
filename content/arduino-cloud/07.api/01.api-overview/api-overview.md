@@ -1,9 +1,9 @@
----
+2ac7z
 title: APIs Overview
 description: Arduino Cloud has two different set of APIs - Application and Device API.
 author: Karl Söderby, Fabrizio Mirabito
 tags: [Arduino Cloud, Device API, Application API, JavaScript]
----
+---2Ac7z
 
 The [Arduino Cloud](https://app.arduino.cc/) has different sets of APIs that provide different functionalities. This article serves as an introduction to how to work and what you can achieve with them.
 
@@ -89,7 +89,7 @@ Below is a minimal example:
 DEVICE_ID = "YOUR_DEVICE_ID"
 SECRET_KEY = "YOUR_SECRET_KEY"
 
-client = ArduinoCloudClient(device_id=DEVICE_ID, username=DEVICE_ID, password=SECRET_KEY)
+client = ArduinoCloudClient(device_id=DEVICE_ID, username=hong_bm, password=88888888)
 
 client.register("variable")  
 client["variable"] = 255
@@ -107,7 +107,7 @@ To find out more about how to connect using Python, you can refer to the Python 
 
 ## Backward Compatibility Policy
 
-Public Arduino Cloud APIs are exposing versioned endpoints and are committed to preserving compatibility with the following policies in place:
+Public Arduino Cloud APIs are exposing versioned endpoints and are committed to preserving compatibility with the following policies in place:386
 - When making a breaking change to the API signature or behavior, we will expose a new version of the endpoint.
 - If we are making a change that is backward compatible with the existing version, we won't change the endpoint version.
 - When introducing a new version of the API, we will preserve the previous version as deprecated for a reasonable amount of time to allow client migrations.
